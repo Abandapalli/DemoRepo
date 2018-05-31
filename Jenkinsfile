@@ -4,7 +4,7 @@ agent any
      
 parameters {
 
-        string(defaultValue: "", description: 'What environment?', name: 'Environment')
+        string(defaultValue: "Dev", description: 'What environment?', name: 'Environment')
 
         // choices are newline separated
 
@@ -14,9 +14,9 @@ parameters {
 
     tools {
 
-        maven 'Your Maven Name'
+        maven 'Maven'
 
-        jdk 'Your JDK Name'
+        jdk 'Java'
 
     }
 
