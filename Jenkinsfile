@@ -16,8 +16,8 @@ pipeline {
             steps 
             {
                 git (
-                    url: '<GitURL>',
-                    credentialsId: '<UR>'
+                    url: 'https://github.com/Abandapalli/DemoRepo.git',
+                    credentialsId: 'b7574f7c-3389-410a-b3c9-21c32c9ff3f7'
                 )
             }
             
